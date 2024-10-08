@@ -1,3 +1,3 @@
-export default function setFromArray(set) {
-  return `Set { ${Array.from(set).join(', ')} }`;
+export default function setFromArray(arr) {
+  return  new Set(arr);
 }
